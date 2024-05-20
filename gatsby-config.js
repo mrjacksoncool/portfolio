@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Mojela Ratsita',
     description: 'Mojela Ratsita is a web devoloper with a great passion for detail.',
-    siteUrl: '#', // No trailing slash allowed!
+    siteUrl: 'https://mojelaratsita.site', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
