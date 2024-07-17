@@ -12,7 +12,7 @@ module.exports = {
     },
     {
       name: 'Twitter',
-      url: 'https://mojelaratsita.site/',
+      url: 'https://x.com/mojeladev',
     },
     {
       name: 'Linkedin',
@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       name: 'Codepen',
-      url: 'https://mojelaratsita.site/',
+      url: 'https://codepen.io/mrjacksoncool',
     },
   ],
 
