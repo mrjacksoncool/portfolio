@@ -6,12 +6,12 @@ module.exports = {
     description: 'Mojela Ratsita is a web devoloper with a great passion for detail.',
     siteUrl: 'https://mojelaratsita.site', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@mojeladev',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
-    // `gatsby-plugin-image`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Mojela Ratsita',
+        short_name: 'Mojela Ratsita',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
