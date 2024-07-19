@@ -170,10 +170,11 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src=""
+              // src="../../images/me.jpg"
               width={500}
               quality={95}
-              formats={['AUTO', 'WEBP', 'AVIF', `jpg`]}
+              formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
             />
           </div>
