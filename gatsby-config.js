@@ -15,19 +15,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
-        defaults: {
-          formats: [`auto`, `webp`, `jpg`],
-          quality: 90,
-          breakpoints: [750, 1080, 1366, 1920],
-          placeholder: `dominantColor`,
-          backgroundColor: `transparent`,
-          tracedSVGOptions: {},
-          blurredOptions: {},
-          jpgOptions: {},
-          pngOptions: {},
-          webpOptions: {},
-          avifOptions: {},
-        },
+        defaults: {},
+        failOn: `warning`,
       },
     },
     `gatsby-transformer-sharp`,
