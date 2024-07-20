@@ -129,9 +129,9 @@ const About = () => {
     'JavaScript (ES6+)',
     'TypeScript',
     'React',
+    'Tailwind CSS',
     'Mongo DB',
     'Node.js',
-    'Tailwind CSS',
   ];
 
   return (
@@ -170,7 +170,8 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.min.jpg"
+              src=""
+              // src="../../images/me.min.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
