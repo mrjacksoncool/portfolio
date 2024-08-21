@@ -15,8 +15,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
-        defaults: {},
-        failOn: `warning`,
+        defaults: {
+          formats: [`auto`, `webp`],
+          failOn: `warning`,
+        },
       },
     },
     `gatsby-transformer-sharp`,
