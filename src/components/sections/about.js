@@ -165,7 +165,6 @@ const About = () => {
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </StyledText>
-
         <StyledPic>
           <div className="wrapper">
             <StaticImage
@@ -173,7 +172,7 @@ const About = () => {
               src="../../images/me.jpg"
               width={500}
               quality={95}
-              formats={['AUTO', 'WEBP', 'AVIF']}
+              formats={[`auto`, `webp`]}
               alt="Headshot"
             />
           </div>
